@@ -5,5 +5,12 @@ describe FizzBuzz do
    it "it returns Fizz when given #3" do
        expect(subject.buzz(3)).to eq "Fizz"
    end
+   
+   it "it returns Buzz when given #5" do
+       expect(subject.buzz(50)).to eq "Buzz"
+   end
 
+   it "it returns FizzBuzz when given #15" do
+       expect(subject.buzz(15)).to eq "FizzBuzz"
+   end
 end
