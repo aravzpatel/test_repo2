@@ -13,4 +13,8 @@ describe FizzBuzz do
    it "it returns FizzBuzz when given #15" do
        expect(subject.buzz(15)).to eq "FizzBuzz"
    end
+
+    it "it returns itself when given #7" do
+    expect(subject.buzz(7)).to eq 7
+    end   
 end
